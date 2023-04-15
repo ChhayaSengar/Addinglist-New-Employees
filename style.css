@@ -1,0 +1,138 @@
+body {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    color: white;
+    box-sizing: border-box;
+    margin: 20px 50px;
+}
+
+form {
+    color: white;
+    box-sizing: border-box;
+}
+
+.user-details {
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.input-box {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    width: calc(100% / 3 - 10%);
+}
+
+.details {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+input {
+    box-sizing: border-box;
+    height: 35px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+     color: lightgrey; 
+    background-color: black;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+
+
+#add-employee-button {
+    box-sizing: border-box;
+    font-weight: bold;
+    height: 35px;
+    width: 100px;
+    margin: 40px 40px 40px 0px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* .error {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.success {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    color: green;
+    margin-bottom: 10px;
+}
+
+body>div>h2 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+#added-employees {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    color: rgb(102, 100, 96);
+}
+#message {
+    margin: 20px 10px 10px 10px;
+    width: 100%;
+    font-weight: bold; 
+} */
+  
+
+#employees {
+    margin: 40px 10px 10px 10px;
+    width: auto;
+    color: white;
+  }
+  
+  #employee-list {
+    list-style: square;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  li button {
+    width: 25%;
+    padding: 8px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #message {
+    margin: 20px 10px 10px 10px;
+    width: 100%;
+    font-weight: bold;
+  }  
